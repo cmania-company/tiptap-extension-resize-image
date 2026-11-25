@@ -1,6 +1,6 @@
 import Image, { ImageOptions } from '@tiptap/extension-image';
-import { StyleManager } from './utils/style-manager';
 import { ImageNodeView } from './controllers/image-node-view';
+import { StyleManager } from './utils/style-manager';
 
 export const ImageResize = Image.extend({
   name: 'imageResize',

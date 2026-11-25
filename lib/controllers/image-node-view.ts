@@ -1,7 +1,7 @@
 import { CONSTANTS } from '../constants';
+import { ImageElements } from '../types';
 import { utils } from '../utils';
 import { AttributeParser } from '../utils/attribute-parser';
-import { ImageElements } from '../types';
 import { PositionController } from './position-controller';
 import { ResizeController } from './resize-controller';
 
@@ -130,7 +130,7 @@ export class ImageNodeView {
       this.setupContainerClick();
       this.setupContentClick();
     }
-    
+
     return {
       dom: this.elements.wrapper,
     };
